@@ -17,6 +17,8 @@ public class RighCick {
 		driver.get("https://www.google.com/intl/en-GB/gmail/about/#");
 		WebElement signin = driver.findElement(By.xpath("//a[@data-action='sign in']"));
 		Actions rightclick = new Actions(driver);
-		rightclick.contextClick(signin).perform();	}
+		rightclick.contextClick(signin).perform();
+		System.out.println("print done");
+	}
 
 }
