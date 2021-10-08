@@ -1,6 +1,7 @@
 package org.robot;
 
 import java.awt.AWTException;
+import java.awt.RenderingHints.Key;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 
@@ -30,7 +31,8 @@ public class RobotFunction {
 		robot.keyRelease(KeyEvent.VK_4);
 		robot.keyPress(KeyEvent.VK_5);
 		robot.keyRelease(KeyEvent.VK_5);
-		
+		System.out.println();
+		System.out.println();
 //		//keyboard action
 //		robot.keyPress(KeyEvent.VK_DOWn);
 //		robot.keyRelease(KeyEvent.VK_DOWN);

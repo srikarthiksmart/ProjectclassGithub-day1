@@ -18,5 +18,8 @@ public class RighCick {
 		WebElement signin = driver.findElement(By.xpath("//a[@data-action='sign in']"));
 		Actions rightclick = new Actions(driver);
 		rightclick.contextClick(signin).perform();	}
+		private void sysout() {
+			// TODO Auto-generated method stub
 
+		}
 }
