@@ -31,6 +31,8 @@ public class RobotFunction {
 		robot.keyPress(KeyEvent.VK_5);
 		robot.keyRelease(KeyEvent.VK_5);
 		
+		System.out.println("******done******");
+		
 //		//keyboard action
 //		robot.keyPress(KeyEvent.VK_DOWn);
 //		robot.keyRelease(KeyEvent.VK_DOWN);
